@@ -16,3 +16,8 @@ def generate(n):
     combs = []
     rec(2 * n, 0, [], combs)
     return combs
+
+l = [1,2,6,12]
+l2 = [12,6,2,1]
+print(l ==l2)
+print("the  {}  side {1} {2}".format("brign", "up", "the"))
