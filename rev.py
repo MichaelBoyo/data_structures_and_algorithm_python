@@ -16,7 +16,7 @@ def reverseString(text):
     return text
 
 
-string = "z<*zj"
+string = "ab-cd"
 print("Input string: ", string)
 string = reverseString(list(string))
 print("Output string: ", "".join(string))

@@ -16,4 +16,5 @@ def calPoints(ops) -> int:
 if __name__ == "__main__":
     line = input()
     ops = line.strip().split()
+
     print(calPoints(ops))
